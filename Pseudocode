@@ -1,0 +1,33 @@
+START
+Create an empty list to store users
+Repeat for each user
+Ask the user to enter their name
+WHILE the name is empty
+Ask again for a valid name
+END WHILE
+Set number score to 50
+Set pattern tracker to 0
+Set all colour scores to 0
+FOR question number from 1 to 10
+Display the question with two choices
+Get the user’s selected answer
+IF question number is between 1 and 5
+ Adjust the number score based on the answer
+  Update the pattern tracker
+   END IF
+IF question number is between 6 and 10
+ Add points to colour scores based on the answer
+ END IF
+   END FOR
+    IF number score is less than 0
+        Set number score to 0
+    END IF
+    IF number score is greater than 100
+        Set number score to 100
+    END IF
+    Find the colour with the highest score
+    Save the user’s name, predicted number, and predicted colour
+    Display the result
+Repeat for next user
+END
+

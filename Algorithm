@@ -1,0 +1,8 @@
+  The program starts by showing a title and making a list to save results. The user enters their name. If no name is entered, the program 
+  asks again until a valid name is given. After a name is entered, the program sets up values used for prediction. It starts the number 
+  in the middle and prepares to track patterns and colour choices. The program then asks ten questions. The first five questions help 
+  predict the number by increasing or decreasing the score based on the user’s answers. The next five questions help predict the 
+  favourite colour by adding points to different colour options. After all questions are answered, the program finishes the prediction. 
+  It makes sure the number stays in the correct range and selects the colour with the highest score. The program then shows the result 
+  with the user’s name, predicted number, and predicted colour, and saves it. Finally, the program resets so another user can repeat the 
+  process.
