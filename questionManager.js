@@ -1,16 +1,16 @@
  class QuestionManager {
   constructor() {
     this.questions = [
-      "Calm or busy?",
-      "Routine or risky?",
-      "Simple or complex?",
-      "Quick or slow?",
-      "Pattern or random?",
-      "Energy or calm?",
-      "Nature or imagination?",
-      "Bright or soft?",
-      "Creative or practical?",
-      "Neutral or bold?"
+      "Do you prefer calm situations or busy situations?",
+      "Do you prefer routine or taking risks?",
+      "Do you prefer simple things or complex things?",
+      "Do you prefer working quickly or slowly?",
+      "Do you prefer patterns or randomness?",
+      "Do you prefer energy and excitement or a calm feeling?",
+      "Do you prefer nature or imagination?",
+      "Do you prefer bright things or soft things?",
+      "Do you prefer being creative or being practical?",
+      "Do you prefer neutral choices or bold choices?"
     ];
 
     this.choices = [
